@@ -26,9 +26,12 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_monitors"></a> [monitors](#input\_monitors) | The list of UptimeRobot monitors | `list(map(string))` | `[]` | no |
+| <a name="input_monitors"></a> [monitors](#input\_monitors) | The list of UptimeRobot monitors | `list(map(string))` | n/a | yes |
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_ids"></a> [ids](#output\_ids) | show ids instance |
+| <a name="output_instance"></a> [instance](#output\_instance) | show instance |
 <!-- END_TF_DOCS -->
