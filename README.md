@@ -63,11 +63,14 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 | --- | --- | --- | --- | :-: |
-| <a name="input_monitors"></a> [monitors](#input_monitors) | The list of UptimeRobot monitors | `list(map(string))` | `[]` | no |
+| <a name="input_monitors"></a> [monitors](#input_monitors) | The list of UptimeRobot monitors | `list(map(string))` | n/a | yes |
 
 ## Outputs
 
-No outputs.
+| Name                                                        | Description       |
+| ----------------------------------------------------------- | ----------------- |
+| <a name="output_ids"></a> [ids](#output_ids)                | show ids instance |
+| <a name="output_instance"></a> [instance](#output_instance) | show instance     |
 
 <!-- END_TF_DOCS -->
 
