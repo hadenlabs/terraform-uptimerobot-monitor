@@ -1,0 +1,59 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: terraform-uptimerobot-monitor
+
+email:
+  support: support@hadenlabs.com
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: 'LGPL-3.0'
+
+# Canonical GitHub repo
+github_repo: hadenlabs/terraform-uptimerobot-monitor
+
+# Badges to display
+badges:
+  - name: GitHub tag (latest SemVer)
+    image: https://img.shields.io/github/v/tag/hadenlabs/terraform-uptimerobot-monitor.svg?label=latest&sort=semver
+    url: https://github.com/hadenlabs/terraform-uptimerobot-monitor/releases
+  - name: Lint
+    image: https://github.com/hadenlabs/terraform-uptimerobot-monitor/actions/workflows/lint.yml/badge.svg?branch=develop
+    url: https://github.com/hadenlabs/terraform-uptimerobot-monitor/actions
+  - name: Issues
+    image: https://img.shields.io/github/issues/hadenlabs/terraform-uptimerobot-monitor.svg
+    url: https://github.com/hadenlabs/terraform-uptimerobot-monitor/issues
+  - name: Latest Release
+    image: https://img.shields.io/github/release/hadenlabs/terraform-uptimerobot-monitor.svg
+    url: https://github.com/hadenlabs/terraform-uptimerobot-monitor/releases
+
+# Short description of this project
+description: |-
+  terraform uptimerobot monitor
+
+# How to use this project
+usage: |-
+
+  ```hcl
+    module "main" {
+      source = "hadenlabs/monitor/uptimerobot"
+      version   = "0.0.0"
+    }
+
+  ```
+
+  Full working examples can be found in [examples](./examples) folder.
+
+examples:
+  - 'docs/examples/common.md'
+
+include:
+  - 'docs/include/targets.md'
+  - 'docs/include/terraform.md'
