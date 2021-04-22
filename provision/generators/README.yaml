@@ -44,7 +44,7 @@ usage: |-
   ```hcl
     module "main" {
       source = "hadenlabs/monitor/uptimerobot"
-      version   = "0.0.0"
+      version   = "0.1.0"
       monitors = [
         {
           friendly_name = "test-url"
