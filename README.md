@@ -24,6 +24,12 @@ terraform uptimerobot monitor
   module "main" {
     source = "hadenlabs/monitor/uptimerobot"
     version   = "0.0.0"
+    monitors = [
+      {
+        friendly_name = "test-url"
+        url           = "https://google.com"
+      },
+    ]
   }
 
 ```
@@ -33,6 +39,20 @@ Full working examples can be found in [examples](./examples) folder.
 ## Examples
 
 ### basic
+
+```hcl
+  module "main" {
+    source = "hadenlabs/monitor/uptimerobot"
+    version   = "0.0.0"
+    source = "git://github.com/hadenlabs/terraform-uptimerobot-monitor.git?ref=0.0.0"
+    monitors = [
+      {
+        friendly_name = "test-url"
+        url           = "https://google.com"
+      },
+    ]
+  }
+```
 
  <!-- BEGIN_TF_DOCS -->
 
