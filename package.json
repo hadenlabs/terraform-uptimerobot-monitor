@@ -1,6 +1,6 @@
 {
   "name": "terraform-uptimerobot-monitor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "terraform uptimerobot monitor",
   "repository": "ssh://git@github.com/hadenlabs/terraform-uptimerobot-monitor.git",
   "author": "Luis Mayta <slovacus@gmail.com>",
