@@ -1,0 +1,3 @@
+provider "uptimerobot" {
+  # Configuration options
+}
